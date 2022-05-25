@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    android:label="Cadres"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/sizeDetailsFragment"
+        android:name="com.example.cadres.ui.SizeDetailsFragment"
+
+        tools:layout="@layout/fragment_size_details" >
+        <argument
+            android:name="machin_data"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_sizeDetailsFragment_to_specificationFragment"
+            app:destination="@id/specificationFragment" />
+        <action
+            android:id="@+id/action_sizeDetailsFragment_to_PDFFragment"
+            app:destination="@id/PDFFragment" />
+        <action
+            android:id="@+id/action_sizeDetailsFragment_to_tubularsFragment"
+            app:destination="@id/tubularsFragment" />
+        <action
+            android:id="@+id/action_sizeDetailsFragment_to_calcFragment"
+            app:destination="@id/calcFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.cadres.ui.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_firstFragment"
+            app:popUpTo="@+id/splashFragment"
+            app:popUpToInclusive="true"
+            app:destination="@id/firstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.cadres.ui.FirstFragment"
+        android:label="Cadres" >
+        <action
+            android:id="@+id/action_firstFragment_to_sizeDetailsFragment"
+            app:destination="@id/sizeDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/specificationFragment"
+        android:name="com.example.cadres.ui.SpecificationFragment"
+        android:label="Cadres" >
+        <argument
+            android:name="size"
+            app:argType="string" />
+        <argument
+            android:name="series"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/PDFFragment"
+        android:name="com.example.cadres.ui.PDFFragment"
+        android:label="fragment_p_d_f"
+        tools:layout="@layout/fragment_p_d_f" >
+        <argument
+            android:name="pdfName"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/tubularsFragment"
+        android:name="com.example.cadres.ui.TubularsFragment"
+        android:label="fragment_tubulars"
+        tools:layout="@layout/fragment_tubulars" >
+        <action
+            android:id="@+id/action_tubularsFragment_to_PDFFragment"
+            app:destination="@id/PDFFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/calcFragment"
+        android:name="com.example.cadres.ui.CalcFragment"
+        android:label="fragment_calc"
+        tools:layout="@layout/fragment_calc" >
+        <argument
+            android:name="size"
+            app:argType="string" />
+    </fragment>
+</navigation>

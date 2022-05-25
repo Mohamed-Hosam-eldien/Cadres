@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Cadres</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tublars">Tublars</string>
+    <string name="specifications">Specifications</string>
+    <string name="operation">Operation Manual</string>
+    <string name="calculation">Calculation</string>
+    <string name="size">Size</string>
+    <string name="tool">Tool</string>
+    <string name="series">Series</string>
+    <string name="tool_name">Tool Name</string>
+    <string name="jarring_up">Jarring Up</string>
+    <string name="jarring_down">Jarring Down</string>
+    <string name="minimum_overpull">Minimum Overpull</string>
+    <string name="maximum_overpull">Maximum Overpull</string>
+    <string name="weight_above_jar">Weight Above Jar</string>
+    <string name="up_jar_latch_setting">UP Jar Latch Setting</string>
+    <string name="down_jar_latch_setting">DOWN Jar Latch Setting</string>
+    <string name="pump_open_area">Pump Open Area</string>
+    <string name="drag_force">Drag Force</string>
+    <string name="bit_pressure_drop">Bit Pressure Drop</string>
+    <string name="pump_open_force">Pump Open Force</string>
+    <string name="calculate">Calculate</string>
+    <string name="max_load_during_hydraulic_delay">Max Load During Hydraulic Delay</string>
+</resources>
