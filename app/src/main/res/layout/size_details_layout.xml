@@ -87,7 +87,7 @@
                         android:gravity="center"
                         android:text="@string/specifications"
                         android:textColor="@color/black"
-                        android:textSize="25sp" />
+                        android:textSize="23sp" />
 
                 </RelativeLayout>
 
@@ -128,7 +128,7 @@
                         android:fontFamily="monospace"
                         android:text="@string/operation"
                         android:textColor="@color/black"
-                        android:textSize="23sp" />
+                        android:textSize="21sp" />
 
                 </RelativeLayout>
 
@@ -165,12 +165,12 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
-                        android:fontFamily="monospace"
 
+                        android:fontFamily="monospace"
                         android:gravity="center"
                         android:text="@string/calculation"
                         android:textColor="@color/black"
-                        android:textSize="25sp" />
+                        android:textSize="23sp" />
 
                 </RelativeLayout>
 
