@@ -31,6 +31,11 @@ class FirstFragment : Fragment(), OnClickListener {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initView()
+        binding.info.setOnClickListener {
+            findNavController().navigate(R.id.action_firstFragment_to_PDFFragment, Bundle().apply {
+                putString("pdfName", "ABOUT_CADRES.pdf")
+            })
+        }
     }
 
 
@@ -101,4 +106,5 @@ class FirstFragment : Fragment(), OnClickListener {
         Utils.currentMachine = machine
         findNavController().navigate(R.id.action_firstFragment_to_sizeDetailsFragment)
     }
+
 }

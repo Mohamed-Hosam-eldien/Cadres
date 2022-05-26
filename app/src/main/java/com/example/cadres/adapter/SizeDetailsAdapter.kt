@@ -53,7 +53,6 @@ class SizeDetailsAdapter(
                 holder.txtOper.text = "Heavy Weight Drill Pipes"
             }
             "PBL" -> {
-                holder.txtOper.text = "Operation Instruction"
                 holder.txtCalc.text = "Troubleshooting"
             }
         }

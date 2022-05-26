@@ -44,6 +44,10 @@
         <action
             android:id="@+id/action_firstFragment_to_sizeDetailsFragment"
             app:destination="@id/sizeDetailsFragment" />
+
+        <action
+            android:id="@+id/action_firstFragment_to_PDFFragment"
+            app:destination="@id/PDFFragment" />
     </fragment>
     <fragment
         android:id="@+id/specificationFragment"

@@ -95,12 +95,12 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:textSize="23sp"
+                android:textSize="21sp"
                 android:text="4.75'"
                 android:textColor="@color/white"
                 android:background="@drawable/rounded_shap"
                 android:gravity="center"
-                android:padding="7dp"
+                android:padding="5dp"
                 />
 
             <TextView
@@ -109,12 +109,12 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
-                android:textSize="23sp"
+                android:textSize="21sp"
                 android:text="PBL"
                 android:textColor="@color/white"
                 android:background="@drawable/rounded_shap"
                 android:gravity="center"
-                android:padding="8dp"
+                android:padding="5dp"
                 />
 
             <TextView
@@ -124,11 +124,11 @@
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:text="12345"
-                android:textSize="23sp"
+                android:textSize="21sp"
                 android:textColor="@color/white"
                 android:background="@drawable/rounded_shap"
                 android:gravity="center"
-                android:padding="7dp"
+                android:padding="5dp"
                 />
 
         </LinearLayout>

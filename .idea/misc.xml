@@ -4,10 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/sours/ITI_Android/Cadres/app/src/main/res/drawable/ic_arrow_forward_.xml" value="0.143" />
+        <entry key="..\:/sours/ITI_Android/Cadres/app/src/main/res/drawable/ic_info.xml" value="0.143" />
         <entry key="..\:/sours/ITI_Android/Cadres/app/src/main/res/drawable/rounded_shap.xml" value="0.143" />
         <entry key="..\:/sours/ITI_Android/Cadres/app/src/main/res/layout/activity_main.xml" value="0.16944444444444445" />
+        <entry key="..\:/sours/ITI_Android/Cadres/app/src/main/res/layout/fragment_about.xml" value="0.25" />
         <entry key="..\:/sours/ITI_Android/Cadres/app/src/main/res/layout/fragment_calc.xml" value="0.16944444444444445" />
-        <entry key="..\:/sours/ITI_Android/Cadres/app/src/main/res/layout/fragment_first.xml" value="0.16944444444444445" />
+        <entry key="..\:/sours/ITI_Android/Cadres/app/src/main/res/layout/fragment_first.xml" value="0.25" />
         <entry key="..\:/sours/ITI_Android/Cadres/app/src/main/res/layout/fragment_p_d_f.xml" value="0.20416666666666666" />
         <entry key="..\:/sours/ITI_Android/Cadres/app/src/main/res/layout/fragment_size_details.xml" value="0.20416666666666666" />
         <entry key="..\:/sours/ITI_Android/Cadres/app/src/main/res/layout/fragment_specificationfragment.xml" value="0.20416666666666666" />
@@ -18,7 +20,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

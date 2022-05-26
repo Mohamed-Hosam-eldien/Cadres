@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cadres.databinding.SpecificationItemBinding
 
+
 class SpecificationAdapter(var headres: List<String>, var valueList: List<String>) :
     RecyclerView.Adapter<SpecificationAdapter.SpecificationViewHolder>() {
 
