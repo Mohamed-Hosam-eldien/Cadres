@@ -15,18 +15,20 @@
         tools:context=".specification.SpecificationFragment"
 
         >
-
+<!--#6A7FA1-->
         <TextView
             android:id="@+id/specific_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#6A7FA1"
+            android:background="#313131"
             android:gravity="center"
+            android:layout_margin="7dp"
             android:paddingTop="8dp"
+            android:text="PBL SUB"
             android:paddingBottom="8dp"
-            android:textColor="@color/black"
-            android:textSize="14sp"
-            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:fontFamily="monospace"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -48,6 +50,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:textSize="19sp"
+                android:textColor="@color/black"
                 android:text="@string/size" />
 
             <TextView
@@ -55,6 +59,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:textSize="19sp"
+                android:textColor="@color/black"
                 android:text="@string/tool"
 
                 />
@@ -64,6 +70,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:textSize="19sp"
+                android:textColor="@color/black"
                 android:text="@string/series" />
         </LinearLayout>
 
@@ -87,9 +95,12 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:textSize="23sp"
+                android:text="4.75'"
+                android:textColor="@color/white"
                 android:background="@drawable/rounded_shap"
                 android:gravity="center"
-                android:padding="8dp"
+                android:padding="7dp"
                 />
 
             <TextView
@@ -98,6 +109,9 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:textSize="23sp"
+                android:text="PBL"
+                android:textColor="@color/white"
                 android:background="@drawable/rounded_shap"
                 android:gravity="center"
                 android:padding="8dp"
@@ -109,9 +123,12 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:text="12345"
+                android:textSize="23sp"
+                android:textColor="@color/white"
                 android:background="@drawable/rounded_shap"
                 android:gravity="center"
-                android:padding="8dp"
+                android:padding="7dp"
                 />
 
         </LinearLayout>

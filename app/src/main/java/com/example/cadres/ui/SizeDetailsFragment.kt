@@ -1,18 +1,17 @@
 package com.example.cadres.ui
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.cadres.interfaces.ISpecification
 import com.example.cadres.R
 import com.example.cadres.adapter.SizeDetailsAdapter
 import com.example.cadres.data.*
 import com.example.cadres.databinding.FragmentSizeDetailsBinding
+import com.example.cadres.interfaces.ISpecification
 import com.example.cadres.utils.Utils
 
 class SizeDetailsFragment : Fragment(), ISpecification {
@@ -39,7 +38,7 @@ class SizeDetailsFragment : Fragment(), ISpecification {
         super.onViewCreated(view, savedInstanceState)
 
         binding.txtToolsName.text = Utils.currentMachine.machineName
-
+        binding.img.setImageResource(Utils.currentMachine.machineImage)
         binding.recycler.apply {
             setHasFixedSize(true)
             layoutManager =

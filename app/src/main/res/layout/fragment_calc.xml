@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginTop="16sp"
+            android:layout_marginTop="18sp"
             android:layout_marginBottom="8dp"
             android:gravity="center"
             android:orientation="horizontal"
@@ -27,6 +27,8 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="@color/black"
                 android:gravity="center"
                 android:text="@string/size" />
 
@@ -35,6 +37,8 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/black"
                 android:text="@string/tool_name" />
 
         </LinearLayout>
@@ -55,19 +59,25 @@
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
+                android:text="4 3/4'"
+                android:textColor="@color/white"
+                android:textSize="23sp"
                 android:background="@drawable/rounded_shap"
                 android:gravity="center"
-                android:padding="8dp" />
+                android:padding="7dp" />
 
             <TextView
                 android:id="@+id/txtName"
                 android:layout_width="0dp"
+                android:text="HYDRA JAR"
+                android:textSize="21sp"
+                android:textColor="@color/white"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:background="@drawable/rounded_shap"
                 android:gravity="center"
-                android:padding="8dp" />
+                android:padding="7dp" />
 
         </LinearLayout>
 
@@ -85,9 +95,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
-                android:layout_centerVertical="true"
                 android:text="@string/jarring_up"
-                android:textSize="16sp" />
+                android:textSize="17sp" />
 
 
             <TextView
@@ -115,9 +124,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
-                android:layout_centerVertical="true"
                 android:text="@string/jarring_down"
-                android:textSize="16sp" />
+                android:textSize="17sp" />
 
 
             <TextView
@@ -147,7 +155,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/minimum_overpull"
-                android:textSize="16sp" />
+                android:textSize="17sp" />
 
 
             <TextView
@@ -177,7 +185,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/maximum_overpull"
-                android:textSize="16sp" />
+                android:textSize="17sp" />
 
 
             <TextView
@@ -193,9 +201,9 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="12dp"
+            android:layout_height="9dp"
             android:background="@drawable/rounded_shap"
-            android:layout_margin="12dp"/>
+            android:layout_margin="9dp"/>
 
 
         <RelativeLayout
@@ -215,7 +223,7 @@
                 android:layout_centerVertical="true"
                 android:text="@string/max_load_during_hydraulic_delay"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="16sp" />
 
 
             <TextView
@@ -244,10 +252,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
-                android:layout_centerVertical="true"
                 android:text="@string/pump_open_area"
                 android:textColor="@color/black"
-                android:textSize="16sp" />
+                android:textSize="17sp" />
 
 
             <TextView
@@ -278,7 +285,7 @@
                 android:layout_alignParentStart="true"
                 android:text="@string/up_jar_latch_setting"
                 android:textColor="@color/black"
-                android:textSize="16sp" />
+                android:textSize="17sp" />
 
 
             <TextView
@@ -310,7 +317,7 @@
                 android:layout_centerVertical="true"
                 android:text="@string/down_jar_latch_setting"
                 android:textColor="@color/black"
-                android:textSize="16sp" />
+                android:textSize="17sp" />
 
 
             <TextView
@@ -341,7 +348,7 @@
                 android:layout_centerVertical="true"
                 android:text="@string/weight_above_jar"
                 android:textColor="@color/blue"
-                android:textSize="16sp" />
+                android:textSize="17sp" />
 
 
             <EditText
@@ -375,7 +382,7 @@
                 android:layout_centerVertical="true"
                 android:text="@string/drag_force"
                 android:textColor="@color/blue"
-                android:textSize="16sp" />
+                android:textSize="17sp" />
 
 
             <EditText
@@ -408,7 +415,7 @@
                 android:layout_centerVertical="true"
                 android:text="@string/bit_pressure_drop"
                 android:textColor="@color/blue"
-                android:textSize="16sp" />
+                android:textSize="17sp" />
 
 
             <EditText
@@ -442,7 +449,7 @@
                 android:layout_centerVertical="true"
                 android:text="@string/pump_open_force"
                 android:textColor="@color/blue"
-                android:textSize="16sp" />
+                android:textSize="17sp" />
 
 
             <EditText
@@ -467,6 +474,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="18dp"
+            android:padding="11dp"
+            android:textSize="21sp"
+            android:backgroundTint="@color/blue"
             android:text="@string/calculate"/>
 
     </LinearLayout>

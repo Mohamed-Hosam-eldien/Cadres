@@ -11,27 +11,25 @@
         android:layout_height="90dp">
 
 
-
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:cardElevation="5dp"
-            app:cardCornerRadius="10dp"
-            android:layout_margin="10dp"
-            app:cardMaxElevation="5dp"
-
+            android:layout_margin="7dp"
+            android:elevation="5dp"
             app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="13dp"
+            app:cardElevation="5dp"
+            app:cardMaxElevation="5dp"
             app:cardPreventCornerOverlap="true"
             app:layout_constraintTop_toTopOf="parent">
-
 
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@color/white"
                 android:orientation="horizontal"
                 android:weightSum="3"
-                android:background="#B3C4CC"
 
                 >
 
@@ -40,30 +38,31 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:fontFamily="serif"
                     android:gravity="center"
-                    android:text="d3d3d3d3d3d3d3d3d3dd3d3d3d3d3d"
+                    android:text="Overall Length"
+                    android:textColor="@color/black"
+                    android:textSize="21sp"
 
                     />
+
                 <View
                     android:layout_width="2dp"
                     android:layout_height="match_parent"
-                    android:background="@color/black"
-                    />
+                    android:background="@color/black" />
+
                 <TextView
                     android:id="@+id/value"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:fontFamily="serif"
                     android:gravity="center"
-                    android:text="d3d3d3d3d3"/>
+                    android:text="8'TO 10'"
+                    android:textColor="@color/black"
+                    android:textSize="21sp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
-
-
-
-
-
-
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
