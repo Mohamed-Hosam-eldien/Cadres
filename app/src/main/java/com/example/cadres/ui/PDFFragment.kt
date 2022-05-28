@@ -16,7 +16,8 @@ class PDFFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        // Inflate the layout for this fragment
+
+
         val view = inflater.inflate(R.layout.fragment_p_d_f, container, false)
         binding = FragmentPDFBinding.bind(view)
 
@@ -26,6 +27,8 @@ class PDFFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.pdfView.fromAsset(requireArguments().getString("pdfName")).load()
+
+
     }
 
 }

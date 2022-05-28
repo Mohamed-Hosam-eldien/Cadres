@@ -56,7 +56,7 @@ class FirstFragment : Fragment(), OnClickListener {
                 "HYDRAULIC MECHANICAL JAR",
                 "HMJ",
                 R.drawable.hydraulic_mechanical_drilling_jar,
-                listOf("4 3/4\"","6 1/2\"","8\"")
+                listOf("4.75\"","6.5\"","8\"")
             )
         )
 
@@ -66,7 +66,8 @@ class FirstFragment : Fragment(), OnClickListener {
                 "DOUBLE ACTING HYDRAULIC MECHANICAL DRILLING JAR",
                 "DAHMJ",
                 R.drawable.double_action_hydrolic_mechanical_drilling,
-                listOf("4 3/4\"","6 1/2\"","8\"")
+                listOf("4.75\"","6.5\"","8\"")
+
             )
         )
 
@@ -75,7 +76,8 @@ class FirstFragment : Fragment(), OnClickListener {
                 "DOUBLE ACTING HYDRAULIC JAR",
                 "HYDRA JAR",
                 R.drawable.double_action_hydraulic_jar,
-                listOf("4 3/4\"","6 1/2\"","8\"")
+                listOf("4.75\"","6.5\"","8\"")
+
             )
         )
 
@@ -83,14 +85,14 @@ class FirstFragment : Fragment(), OnClickListener {
             Machine("SHOCK TOOL",
             "SHOOK TOOL",
             R.drawable.shock_tool,
-            listOf("8\"","9 1/2\"", "11\"", "12\"")
+            listOf("8\"","9.5\"", "11\"", "12\"")
         )
         )
 
         machineList.add(
             Machine("PBL SUB",
             "PBL",
-            R.drawable.pnl_sub,listOf("4 3/4\"","6 3/4\"","8 1/4\""))
+            R.drawable.pnl_sub,listOf("4.75\"","6.75\"","8.25\""))
         )
 
         machineList.add(

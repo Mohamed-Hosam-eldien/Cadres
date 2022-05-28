@@ -59,11 +59,11 @@ class SizeDetailsFragment : Fragment(), ISpecification {
         when (Utils.currentMachine.nickName) {
             "HMJ" -> {
                 when (sizeNum) {
-                    1 -> {
+                    0 -> {
                         Utils.specificationList = HMJ.listItemsOne
                         series = "380"
                     }
-                    2 -> {
+                    1 -> {
                         Utils.specificationList = HMJ.listItemsTwo
                         series = "474"
                     }
@@ -78,11 +78,11 @@ class SizeDetailsFragment : Fragment(), ISpecification {
 
             "DAHMJ" -> {
                 when (sizeNum) {
-                    1 -> {
+                    0 -> {
                         Utils.specificationList = DAHMJ.listItemsOne
                         series = "431"
                     }
-                    2 -> {
+                    1 -> {
                         Utils.specificationList = DAHMJ.listItemsTwo
                         series = "428"
                     }
@@ -96,11 +96,11 @@ class SizeDetailsFragment : Fragment(), ISpecification {
 
             "HYDRA JAR" -> {
                 when (sizeNum) {
-                    1 -> {
+                    0 -> {
                         Utils.specificationList = HydraJar.listItemsOne
                         series = "H16790"
                     }
-                    2 -> {
+                    1 -> {
                         Utils.specificationList = HydraJar.listItemsTwo
                         series = "H16293"
                     }
@@ -114,15 +114,15 @@ class SizeDetailsFragment : Fragment(), ISpecification {
 
             "SHOOK TOOL" -> {
                 when (sizeNum) {
-                    1 -> {
+                    0 -> {
                         Utils.specificationList = Shook.listItemsOne
                         series = "160"
                     }
-                    2 -> {
+                    1 -> {
                         Utils.specificationList = Shook.listItemsTwo
                         series = "151"
                     }
-                    3 -> {
+                    2 -> {
                         Utils.specificationList = Shook.listItemsThree
                         series = "157"
                     }
@@ -136,11 +136,11 @@ class SizeDetailsFragment : Fragment(), ISpecification {
 
             "PBL" -> {
                 when (sizeNum) {
-                    1 -> {
+                    0 -> {
                         Utils.specificationList = PBL.listItemsOne
                         series = "-"
                     }
-                    2 -> {
+                    1 -> {
                         Utils.specificationList = PBL.listItemsTwo
                         series = "-"
                     }
@@ -149,7 +149,9 @@ class SizeDetailsFragment : Fragment(), ISpecification {
                         series = "-"
                     }
                 }
-                Utils.specificationHeaders = Shook.listHeader
+                Utils.specificationHeaders = PBL.listHeader
+
+                   // Shook.listHeader
             }
 
             else -> {
@@ -176,10 +178,10 @@ class SizeDetailsFragment : Fragment(), ISpecification {
 
             "HMJ" -> {
                 pdf = when (sizeNum) {
-                    1 -> {
+                    0 -> {
                         "HMJ Operation Manual"
                     }
-                    2 -> {
+                    1 -> {
                         "HMJ Operation Manual"
                     }
                     else -> {
@@ -192,10 +194,10 @@ class SizeDetailsFragment : Fragment(), ISpecification {
 
             "DAHMJ" -> {
                 pdf = when (sizeNum) {
-                    1 -> {
+                    0 -> {
                         "DAHMJ Operation Manual"
                     }
-                    2 -> {
+                    1 -> {
                         "DAHMJ Operation Manual"
                     }
                     else -> {
@@ -206,10 +208,10 @@ class SizeDetailsFragment : Fragment(), ISpecification {
 
             "HYDRA JAR" -> {
                 pdf = when (sizeNum) {
-                    1 -> {
+                    0 -> {
                         "HYDRA JAR OPERATING MANUAL"
                     }
-                    2 -> {
+                    1 -> {
                         "HYDRA JAR OPERATING MANUAL"
                     }
                     else -> {
@@ -220,13 +222,13 @@ class SizeDetailsFragment : Fragment(), ISpecification {
 
             "SHOOK TOOL" -> {
                 pdf = when (sizeNum) {
+                    0 -> {
+                        "Shock Tool Operation"
+                    }
                     1 -> {
                         "Shock Tool Operation"
                     }
                     2 -> {
-                        "Shock Tool Operation"
-                    }
-                    3 -> {
                         "Shock Tool Operation"
                     }
                     else -> {
@@ -238,10 +240,10 @@ class SizeDetailsFragment : Fragment(), ISpecification {
             "PBL" -> {
 
                 pdf = when (sizeNum) {
-                    1 -> {
+                    0 -> {
                         "4.75 PBL Operation"
                     }
-                    2 -> {
+                    1 -> {
                         "6.75 PBL Operation"
                     }
                     else -> {
@@ -293,10 +295,10 @@ class SizeDetailsFragment : Fragment(), ISpecification {
                         Utils.calcList = DAHMJ.listCalcOne
                     }
                     1 -> {
-                        Utils.calcList = DAHMJ.listCalcOne
+                        Utils.calcList = DAHMJ.listCalcTwo
                     }
                     else -> {
-                        Utils.calcList = DAHMJ.listCalcOne
+                        Utils.calcList = DAHMJ.listCalcThree
                     }
 
                 }
@@ -308,10 +310,10 @@ class SizeDetailsFragment : Fragment(), ISpecification {
                         Utils.calcList = HydraJar.listCalcOne
                     }
                     1 -> {
-                        Utils.calcList = HydraJar.listCalcOne
+                        Utils.calcList = HydraJar.listCalcTwo
                     }
                     else -> {
-                        Utils.calcList = HydraJar.listCalcOne
+                        Utils.calcList = HydraJar.listCalcThree
                     }
 
                 }

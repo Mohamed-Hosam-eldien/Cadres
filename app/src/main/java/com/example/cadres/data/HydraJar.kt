@@ -3,6 +3,7 @@ package com.example.cadres.data
 class HydraJar {
 
     companion object {
+
         var listHeader = listOf(
             "Tool OD",
             "Tool ID",
@@ -24,10 +25,10 @@ class HydraJar {
         var listItemsOne = listOf(
             "4.75\"",
             "2.25\"",
-            "7 7/8\"(V)",
+            "7.875\"(V)",
             "29' 10\"",
             "476 KG",
-            "8\"",
+            "8'\"",
             "7\"",
             "60,000 Lbs",
             "60 - 120 Sec",
@@ -42,10 +43,10 @@ class HydraJar {
         var listItemsTwo = listOf(
             "6.5\"",
             "2.75\"",
-            "10 5/8\"(V)",
+            "10.625\"(V)",
             "31' 2\"",
-            "839 KG",
-            "8\"",
+            "839 Kg",
+            "8'\"",
             "7\"",
             "90,000 Lbf",
             "60 - 120 Sec",
@@ -60,10 +61,10 @@ class HydraJar {
         var listItemsThree = listOf(
             "8\"",
             "3\"",
-            "171/2\"(V)",
+            "17.5\"(V)",///
             "32 FEET",
-            "1610 KG",
-            "8\"",
+            "1610 Kg",
+            "8'\"",
             "7\"",
             "90,000 Lbf",
             "60 - 180 Sec",
@@ -89,7 +90,7 @@ class HydraJar {
         var listCalcTwo = listOf(
             "175000",
             "90000",
-            "450000",
+            "50000",
             "9.6",
             "90000",
             "-50000",
